@@ -175,3 +175,32 @@ button:hover {
 button a {
   color: inherit;
 }
+
+/* Media Queries */
+@media (max-width: 500px) {
+  body {
+    padding: 2%;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .top {
+    margin-top: 28%;
+    display: block;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info button {
+    font-size: 17px;
+    margin: 4% 2%;
+  }
+}
